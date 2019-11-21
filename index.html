@@ -14,7 +14,10 @@
   </head>
   <body>
     <div class="container">
-      <h1>Tibo's Pokedex</h1>
+      <div class="heading">
+        <h1>Tibo's Pokedex</h1>
+        <input type="text" name="input" id="searchbar" onkeyup="search_pokemon()" placeholder="search for Pokemon">
+      </div>
       <ol id="pokedex"></ol>
     </div>
     <script src="/js/main.js"></script>
